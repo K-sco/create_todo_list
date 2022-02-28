@@ -1,4 +1,64 @@
-.App {
-  font-family: sans-serif;
+input {
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  border: none;
+  padding: 4px 16px;
+}
+
+button:hover {
+  background: #e5e3d8;
+  cursor: pointer;
+}
+
+li {
+  margin-right: 8px;
+}
+
+ul div button {
+  list-style: none;
+}
+
+.input-area {
+  background-color: #dddee0;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.incomplete-area {
+  background-color: #dfe4ea;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.complete-area {
+  background-color: #bfcad8;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.title {
   text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.done {
+  margin-right: 8px;
 }
